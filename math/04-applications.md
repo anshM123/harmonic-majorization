@@ -18,8 +18,12 @@ Consequences:
   correct substitute for the upper half of OQP 40, which is false (Cha–Lee, arXiv:2603.19927).
 - **Lower half of OQP 40** (𝒜 ≥ Tr exp(n log A + m log B)):
   - proved when min(n, m) ≤ 2;
+  - proved at (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4), in any dimension. The (3,3) case rests on
+    Tr(A³B³) + 2 Re Tr(A²BAB²) ≥ 3 Tr((AB)³), which is machine-checked in Lean;
+  - proved at (n, 3) and (3, n) for n = 1, …, 30 and n = 33, 36, …, 60, in any dimension (an exact computation for
+    each n);
   - proved when A or B has two distinct eigenvalues, in any dimension;
-  - proved for all 2 × 2 pairs;
+  - proved for all 2 × 2 pairs (already in Furuichi–Kuriyama–Yanagi, Linear Algebra Appl. 430 (2009));
   - open in general.
 
 Status: CHECKED (internal independent check with exact arithmetic); public. The gap identity and the pinching inequality for all n, m are also machine-checked in Lean in that repository (`lean/OQP40/Pinching.lean`), together with the negative answer to OQP 40 as posed (`lean/OQP40/Statement.lean`).
