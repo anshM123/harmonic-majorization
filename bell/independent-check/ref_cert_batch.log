@@ -1,0 +1,155 @@
+THEIRS N=4 d=5 (pool 40, seed 2): LP t* = 1.476e-01, rows used 5 (1.8s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 1.1e-14
+   [arb 128 bits] cells=5 min y lower = 0.00585220770665336, min off-window z lower = 0.4460228257055507, equalities enclose 0: True, max radius of (y,lambda) = 1.3e-32
+   bound = [37.3460778296779 +/- 3.83e-14], F_nat = [37.3460778296779 +/- 3.83e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=4 d=5
+   total 2.0s
+THEIRS N=8 d=10 (pool 40, seed 2): LP t* = 3.185e-02, rows used 11 (66.9s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 6.2e-14
+   [arb 128 bits] cells=11 min y lower = 0.0024379812889432258, min off-window z lower = 0.1652475283462449, equalities enclose 0: True, max radius of (y,lambda) = 2.7e-28
+   bound = [354.591150019960 +/- 9.06e-14], F_nat = [354.591150019960 +/- 9.06e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=8 d=10
+   total 68.5s
+THEIRS N=5 d=11 (pool 40, seed 2): LP t* = 4.414e-02, rows used 8 (15.7s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 2.7e-14
+   [arb 128 bits] cells=8 min y lower = 0.0016013943984976894, min off-window z lower = 0.18774141143980655, equalities enclose 0: True, max radius of (y,lambda) = 3.6e-28
+   bound = [264.164728545013 +/- 4.52e-13], F_nat = [264.164728545013 +/- 4.52e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=11
+   total 16.4s
+THEIRS N=5 d=12 (pool 40, seed 2): LP t* = 3.494e-02, rows used 12 (18.8s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 2.7e-14
+   [arb 128 bits] cells=12 min y lower = 0.0023352740008869464, min off-window z lower = 0.1380986879740253, equalities enclose 0: True, max radius of (y,lambda) = 8.6e-29
+   bound = [317.057853825966 +/- 3.07e-13], F_nat = [317.057853825966 +/- 3.07e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=12
+   total 19.6s
+THEIRS N=5 d=13 (pool 40, seed 2): LP t* = 3.336e-02, rows used 15 (23.1s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 3.2e-14
+   [arb 128 bits] cells=15 min y lower = 0.0017970323083062753, min off-window z lower = 0.13086818025514962, equalities enclose 0: True, max radius of (y,lambda) = 9.4e-29
+   bound = [374.764966272313 +/- 5.56e-14], F_nat = [374.764966272313 +/- 5.56e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=13
+   total 24.2s
+THEIRS N=5 d=14 (pool 40, seed 2): LP t* = 2.494e-02, rows used 17 (27.0s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 2.3e-14
+   [arb 128 bits] cells=17 min y lower = 0.00022947067901358834, min off-window z lower = 0.10504467136430506, equalities enclose 0: True, max radius of (y,lambda) = 1.2e-30
+   bound = [437.286066183907 +/- 3.77e-13], F_nat = [437.286066183907 +/- 3.77e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=14
+   total 28.1s
+OWN N=2 d=5: own LP min-slack t* = 1.802e-01, rows used 3 of 41 (0.1s)
+   window tightness of used cell rows (float): max rel err 1.9e-16
+   [arb 128 bits] cells=3 min y lower = 0.061644577606973776, min off-window z lower = 0.4868465620597481, equalities enclose 0: True, max radius of (y,lambda) = 7.1e-34
+   bound = [14.5527240403604 +/- 1.27e-14], F_nat = [14.5527240403604 +/- 1.27e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=2 d=5
+   total 0.1s
+OWN N=3 d=4: own LP min-slack t* = 2.660e-01, rows used 2 of 41 (0.2s)
+   window tightness of used cell rows (float): max rel err 1.4e-16
+   [arb 128 bits] cells=2 min y lower = 0.14790479728206163, min off-window z lower = 0.4785393346409355, equalities enclose 0: True, max radius of (y,lambda) = 3.9e-34
+   bound = [15.8027541405048 +/- 4.48e-14], F_nat = [15.8027541405048 +/- 4.48e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=3 d=4
+   total 0.2s
+OWN N=4 d=5: own LP min-slack t* = 1.450e-01, rows used 4 of 82 (0.3s)
+   window tightness of used cell rows (float): max rel err 5.7e-16
+   [arb 128 bits] cells=4 min y lower = 0.024852677763874297, min off-window z lower = 0.46770401720953975, equalities enclose 0: True, max radius of (y,lambda) = 3.2e-32
+   bound = [37.3460778296779 +/- 3.83e-14], F_nat = [37.3460778296779 +/- 3.83e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=4 d=5
+   total 0.3s
+OWN N=5 d=7: own LP min-slack t* = 7.751e-02, rows used 8 of 82 (0.7s)
+   window tightness of used cell rows (float): max rel err 2.6e-16
+   [arb 128 bits] cells=8 min y lower = 0.00023531240616461962, min off-window z lower = 0.31912687909738263, equalities enclose 0: True, max radius of (y,lambda) = 8.9e-32
+   bound = [100.732084526141 +/- 1.42e-13], F_nat = [100.732084526141 +/- 1.42e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=7
+   total 0.7s
+OWN N=6 d=8: own LP min-slack t* = 5.963e-02, rows used 10 of 183 (2.0s)
+   window tightness of used cell rows (float): max rel err 4.3e-16
+   [arb 128 bits] cells=10 min y lower = 0.0031446400715522864, min off-window z lower = 0.2532617921342029, equalities enclose 0: True, max radius of (y,lambda) = 5.7e-30
+   bound = [163.360987316286 +/- 2.89e-13], F_nat = [163.360987316286 +/- 2.89e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=6 d=8
+   total 2.3s
+OWN N=7 d=9: own LP min-slack t* = 4.427e-02, rows used 12 of 183 (3.3s)
+   window tightness of used cell rows (float): max rel err 9.4e-16
+   [arb 128 bits] cells=12 min y lower = 0.0005186138383512449, min off-window z lower = 0.18636606619212193, equalities enclose 0: True, max radius of (y,lambda) = 7.2e-29
+   bound = [246.979497452839 +/- 2.53e-13], F_nat = [246.979497452839 +/- 2.53e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=7 d=9
+   total 3.6s
+OWN N=8 d=10: own LP min-slack t* = 3.234e-02, rows used 14 of 244 (8.4s)
+   window tightness of used cell rows (float): max rel err 2.1e-15
+   [arb 128 bits] cells=14 min y lower = 0.00029128144259533766, min off-window z lower = 0.1351110396384203, equalities enclose 0: True, max radius of (y,lambda) = 4.7e-29
+   bound = [354.591150019960 +/- 9.06e-14], F_nat = [354.591150019960 +/- 9.06e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=8 d=10
+   total 9.3s
+OWN N=5 d=11: own LP min-slack t* = 4.437e-02, rows used 10 of 122 (2.0s)
+   window tightness of used cell rows (float): max rel err 1.1e-15
+   [arb 128 bits] cells=10 min y lower = 0.0006030968576503279, min off-window z lower = 0.18425648427333405, equalities enclose 0: True, max radius of (y,lambda) = 6.3e-28
+   bound = [264.164728545013 +/- 4.52e-13], F_nat = [264.164728545013 +/- 4.52e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=11
+   total 2.1s
+OWN N=5 d=12: own LP min-slack t* = 3.993e-02, rows used 15 of 122 (2.0s)
+   window tightness of used cell rows (float): max rel err 7.0e-16
+   [arb 128 bits] cells=15 min y lower = 0.0004322680039045783, min off-window z lower = 0.15728096207303618, equalities enclose 0: True, max radius of (y,lambda) = 8.9e-29
+   bound = [317.057853825966 +/- 3.07e-13], F_nat = [317.057853825966 +/- 3.07e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=12
+   total 2.3s
+OWN N=5 d=13: own LP min-slack t* = 3.035e-02, rows used 15 of 122 (2.7s)
+   window tightness of used cell rows (float): max rel err 3.9e-16
+   [arb 128 bits] cells=15 min y lower = 0.0001492689339205456, min off-window z lower = 0.12082729826586765, equalities enclose 0: True, max radius of (y,lambda) = 5.3e-28
+   bound = [374.764966272313 +/- 5.56e-14], F_nat = [374.764966272313 +/- 5.56e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=13
+   total 3.1s
+OWN N=5 d=14: own LP min-slack t* = 2.713e-02, rows used 12 of 122 (2.7s)
+   window tightness of used cell rows (float): max rel err 5.1e-16
+   [arb 128 bits] cells=12 min y lower = 0.0014608756253153231, min off-window z lower = 0.08873713885551793, equalities enclose 0: True, max radius of (y,lambda) = 1.2e-30
+   bound = [437.286066183907 +/- 3.77e-13], F_nat = [437.286066183907 +/- 3.77e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=14
+   total 3.0s
+OWN N=3 d=20: own LP min-slack t* = 2.929e-02, rows used 14 of 121 (1.6s)
+   window tightness of used cell rows (float): max rel err 7.4e-16
+   [arb 128 bits] cells=14 min y lower = 0.00027775073134417397, min off-window z lower = 0.05527957754391213, equalities enclose 0: True, max radius of (y,lambda) = 3.6e-31
+   bound = [506.160156371174 +/- 2.68e-13], F_nat = [506.160156371174 +/- 2.68e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=3 d=20
+   total 1.8s
+OWN N=4 d=22: own LP min-slack t* = 2.282e-02, rows used 21 of 242 (6.7s)
+   window tightness of used cell rows (float): max rel err 5.8e-16
+   [arb 128 bits] cells=21 min y lower = 0.00029246820310967355, min off-window z lower = 0.060351314460955464, equalities enclose 0: True, max radius of (y,lambda) = 2.7e-30
+   bound = [867.551521665526 +/- 4.29e-13], F_nat = [867.551521665526 +/- 4.29e-13], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=4 d=22
+   total 7.4s
+THEIRS N=3 d=24 (pool 120, seed 3): LP t* = 2.155e-02, rows used 15 (41.8s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 2.0e-14
+   [arb 128 bits] cells=15 min y lower = 0.004196157641724758, min off-window z lower = 0.03877512552774076, equalities enclose 0: True, max radius of (y,lambda) = 1.4e-30
+   bound = [735.618756705494 +/- 3.16e-14], F_nat = [735.618756705494 +/- 3.16e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=3 d=24
+   total 43.0s
+OWN N=3 d=24: own LP min-slack t* = 2.407e-02, rows used 17 of 151 (2.2s)
+   window tightness of used cell rows (float): max rel err 9.0e-16
+   [arb 128 bits] cells=17 min y lower = 0.001231014598864248, min off-window z lower = 0.04330569937731587, equalities enclose 0: True, max radius of (y,lambda) = 1.6e-30
+   bound = [735.618756705494 +/- 3.16e-14], F_nat = [735.618756705494 +/- 3.16e-14], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=3 d=24
+   total 2.5s
+OWN N=5 d=24: own LP min-slack t* = 1.688e-02, rows used 26 of 302 (14.5s)
+   window tightness of used cell rows (float): max rel err 1.0e-15
+   [arb 128 bits] cells=26 min y lower = 0.0007803681992828294, min off-window z lower = 0.0664920670783135, equalities enclose 0: True, max radius of (y,lambda) = 1.0e-29
+   bound = [1327.26640159411 +/- 1.59e-12], F_nat = [1327.26640159411 +/- 1.59e-12], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=24
+   total 16.0s
+SUMMARY
+  theirs N=4 d=5 pool=40 seed=2: RIGOROUSLY VERIFIED (2s)
+  theirs N=8 d=10 pool=40 seed=2: RIGOROUSLY VERIFIED (69s)
+  theirs N=5 d=11 pool=40 seed=2: RIGOROUSLY VERIFIED (16s)
+  theirs N=5 d=12 pool=40 seed=2: RIGOROUSLY VERIFIED (20s)
+  theirs N=5 d=13 pool=40 seed=2: RIGOROUSLY VERIFIED (24s)
+  theirs N=5 d=14 pool=40 seed=2: RIGOROUSLY VERIFIED (28s)
+  own    N=2 d=5 pool=40 seed=11: RIGOROUSLY VERIFIED (0s)
+  own    N=3 d=4 pool=40 seed=11: RIGOROUSLY VERIFIED (0s)
+  own    N=4 d=5 pool=40 seed=11: RIGOROUSLY VERIFIED (0s)
+  own    N=5 d=7 pool=40 seed=11: RIGOROUSLY VERIFIED (1s)
+  own    N=6 d=8 pool=60 seed=11: RIGOROUSLY VERIFIED (2s)
+  own    N=7 d=9 pool=60 seed=11: RIGOROUSLY VERIFIED (4s)
+  own    N=8 d=10 pool=60 seed=11: RIGOROUSLY VERIFIED (9s)
+  own    N=5 d=11 pool=60 seed=11: RIGOROUSLY VERIFIED (2s)
+  own    N=5 d=12 pool=60 seed=11: RIGOROUSLY VERIFIED (2s)
+  own    N=5 d=13 pool=60 seed=11: RIGOROUSLY VERIFIED (3s)
+  own    N=5 d=14 pool=60 seed=11: RIGOROUSLY VERIFIED (3s)
+  own    N=3 d=20 pool=120 seed=11: RIGOROUSLY VERIFIED (2s)
+  own    N=4 d=22 pool=120 seed=11: RIGOROUSLY VERIFIED (7s)
+  theirs N=3 d=24 pool=120 seed=3: RIGOROUSLY VERIFIED (43s)
+  own    N=3 d=24 pool=150 seed=11: RIGOROUSLY VERIFIED (3s)
+  own    N=5 d=24 pool=150 seed=11: RIGOROUSLY VERIFIED (16s)

@@ -1,0 +1,7 @@
+﻿N=3 d=3: I on Phi_d (BKP) = 0.7567751189;  BKP measurements on lowest eigenvector of M: I = 0.7129558005 (d*lambda_min - 1 = 0.7129558005);  gap = 4.3819e-02
+N=3 d=4: I on Phi_d (BKP) = 1.0986229297;  BKP measurements on lowest eigenvector of M: I = 0.9809021776 (d*lambda_min - 1 = 0.9809021776);  gap = 1.1772e-01
+N=4 d=3: I on Phi_d (BKP) = 0.5661501327;  BKP measurements on lowest eigenvector of M: I = 0.5266211283 (d*lambda_min - 1 = 0.5266211283);  gap = 3.9529e-02
+N=4 d=5: I on Phi_d (BKP) = 1.0615688681;  BKP measurements on lowest eigenvector of M: I = 0.8729630456 (d*lambda_min - 1 = 0.8729630456);  gap = 1.8861e-01
+N=5 d=4: I on Phi_d (BKP) = 0.6478207920;  BKP measurements on lowest eigenvector of M: I = 0.5557438461 (d*lambda_min - 1 = 0.5557438461);  gap = 9.2077e-02
+N=8 d=10: I on Phi_d (BKP) = 1.0817699960;  BKP measurements on lowest eigenvector of M: I = 0.6336305807 (d*lambda_min - 1 = 0.6336305807);  gap = 4.4814e-01
+N=3 d=24: I on Phi_d (BKP) = 7.6984369412;  BKP measurements on lowest eigenvector of M: I = 4.2253261233 (d*lambda_min - 1 = 4.2253261233);  gap = 3.4731e+00

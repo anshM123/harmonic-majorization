@@ -22,6 +22,7 @@ test functions turn this into theorems in different fields:
 | monomials $\tau^ns^m$ | exact gap formula for word averages; the pinching inequality conjectured by Dinh (2026), all word lengths | trace inequalities |
 | strip-harmonic functions | Theorem B: the eigenvalues of the **non-normal** matrix B + ig, swept to the boundary by harmonic measure, majorize those of B + ig_d | spectra of non-normal matrices |
 | kernel lower bound | Theorem C: a quantitative version with a numerically sharp constant | stability / rigidity |
+| cotangent kernels on a circle | optimal values of chained Bell inequalities on maximally entangled states | quantum nonlocality |
 | superharmonic functions (two levels) | superharmonic majorization, which contains the two-level cases of Theorem B and of Ky Fan's theorem | potential theory |
 
 ## Status of the main results
@@ -38,6 +39,7 @@ Labels:
 | **Theorem C** (quantitative bound) | LEAN; sharpness of the constant is numerical | [`math/02-harmonic-pinching.md`](math/02-harmonic-pinching.md) |
 | Holomorphic form, exact admissibility, half-plane version, two-level superharmonic majorization | CHECKED (internal pre-publication check, [`checks/structure/`](checks/structure/)) | [`math/03-structure.md`](math/03-structure.md) |
 | Word averages: exact gap formula, corrected two-sided bounds; Dinh's conjecture for all word lengths | gap formula and Dinh's inequality: LEAN for all positive semidefinite A, B (the density is taken for A rescaled into [0, 1]), in [anshM123/OQP-40](https://github.com/anshM123/OQP-40) (`lean/`); the bounds: CHECKED. The inequality itself also follows from Heinävaara's Corollary 1.2 (arXiv:2310.03227v1) | [`math/04-applications.md`](math/04-applications.md) |
+| Chained Bell inequalities (Barrett–Kent–Pironio): optimal value and rigidity among projective strategies on maximally entangled states, 3 ≤ N ≤ 8 with 3 ≤ d ≤ 10 and N ∈ {3, 4, 5} with 11 ≤ d ≤ 24 | CHECKED; computer-assisted (interval arithmetic) | [`math/05-chained-bell.md`](math/05-chained-bell.md), [`bell/`](bell/README.md) |
 | CGLMP / OQP 27 for all POVMs | ANNOUNCED: the proof notes are not yet public; an internal adversarial check found no errors | [`math/04-applications.md`](math/04-applications.md) |
 
 ## Verify the Lean proofs

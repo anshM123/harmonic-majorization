@@ -1,0 +1,33 @@
+N=3 d=11: LP2 slack t* = 6.392e-02; cells used 6 (of 41 rows); equations 10
+   ||I - R GG||_inf <= 4.18e-12; |correction| <= 1.47e-13; min y (lower end) 1.004e-03; min off-window dual slack (lower end) 1.586e-01; bound in [146.1747068222876, 146.1747068222876], F_nat = 146.1747068222876
+CERTIFIED  N=3 d=11  cells=6  (5.4s)
+N=3 d=12: LP2 slack t* = 5.037e-02; cells used 7 (of 41 rows); equations 11
+   ||I - R GG||_inf <= 1.09e-11; |correction| <= 3.17e-13; min y (lower end) 1.288e-02; min off-window dual slack (lower end) 1.384e-01; bound in [175.4861597266407, 175.4861597266407], F_nat = 175.4861597266407
+CERTIFIED  N=3 d=12  cells=7  (5.5s)
+N=3 d=13: LP2 slack t* = 5.008e-02; cells used 8 (of 41 rows); equations 12
+   ||I - R GG||_inf <= 1.97e-11; |correction| <= 2.16e-13; min y (lower end) 5.332e-03; min off-window dual slack (lower end) 1.022e-01; bound in [207.4693443019871, 207.4693443019871], F_nat = 207.4693443019872
+CERTIFIED  N=3 d=13  cells=8  (7.2s)
+N=3 d=14: LP2 slack t* = 3.566e-02; cells used 10 (of 41 rows); equations 13
+   ||I - R GG||_inf <= 4.49e-11; |correction| <= 2.79e-13; min y (lower end) 2.069e-03; min off-window dual slack (lower end) 6.891e-02; bound in [242.1242611531511, 242.1242611531511], F_nat = 242.1242611531512
+CERTIFIED  N=3 d=14  cells=10  (7.7s)
+N=4 d=11: LP2 slack t* = 5.558e-02; cells used 9 (of 82 rows); equations 10
+   ||I - R GG||_inf <= 2.86e-11; |correction| <= 1.20e-13; min y (lower end) 4.103e-03; min off-window dual slack (lower end) 1.773e-01; bound in [206.2168873433323, 206.2168873433323], F_nat = 206.2168873433323
+CERTIFIED  N=4 d=11  cells=6  (12.9s)
+N=4 d=12: LP2 slack t* = 4.394e-02; cells used 13 (of 82 rows); equations 11
+   ||I - R GG||_inf <= 3.11e-11; |correction| <= 8.83e-14; min y (lower end) 1.278e-03; min off-window dual slack (lower end) 1.380e-01; bound in [247.5286806028077, 247.5286806028077], F_nat = 247.5286806028077
+CERTIFIED  N=4 d=12  cells=8  (14.4s)
+N=4 d=13: LP2 slack t* = 4.195e-02; cells used 15 (of 82 rows); equations 12
+   ||I - R GG||_inf <= 3.41e-11; |correction| <= 4.15e-14; min y (lower end) 8.795e-04; min off-window dual slack (lower end) 1.371e-01; bound in [292.6023805523668, 292.6023805523668], F_nat = 292.6023805523668
+CERTIFIED  N=4 d=13  cells=10  (18.1s)
+N=4 d=14: LP2 slack t* = 3.107e-02; cells used 17 (of 82 rows); equations 13
+   ||I - R GG||_inf <= 2.77e-11; |correction| <= 2.14e-13; min y (lower end) 2.649e-04; min off-window dual slack (lower end) 7.537e-02; bound in [341.4379876109002, 341.4379876109002], F_nat = 341.4379876109003
+CERTIFIED  N=4 d=14  cells=10  (21.7s)
+SUMMARY
+  N=3 d=11: CERTIFIED
+  N=3 d=12: CERTIFIED
+  N=3 d=13: CERTIFIED
+  N=3 d=14: CERTIFIED
+  N=4 d=11: CERTIFIED
+  N=4 d=12: CERTIFIED
+  N=4 d=13: CERTIFIED
+  N=4 d=14: CERTIFIED

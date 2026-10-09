@@ -1,0 +1,29 @@
+N=2 d=2: LP2 slack t* = 1.000e+00; cells used 0 (of 41 rows); equations 1
+   ||I - R GG||_inf <= 0.00e+00; |correction| <= 7.97e-17; min y (lower end) inf; min off-window dual slack (lower end) 2.828e+00; bound in [1.4142135623731, 1.4142135623731], F_nat = 1.4142135623731
+CERTIFIED  N=2 d=2  cells=0  (0.1s)
+N=3 d=2: LP2 slack t* = 1.000e+00; cells used 0 (of 41 rows); equations 1
+   ||I - R GG||_inf <= 0.00e+00; |correction| <= 2.40e-16; min y (lower end) inf; min off-window dual slack (lower end) 2.598e+00; bound in [2.5980762113533, 2.5980762113533], F_nat = 2.5980762113533
+CERTIFIED  N=3 d=2  cells=0  (0.1s)
+N=4 d=2: LP2 slack t* = 8.554e-01; cells used 0 (of 82 rows); equations 1
+   ||I - R GG||_inf <= 0.00e+00; |correction| <= 1.76e-17; min y (lower end) inf; min off-window dual slack (lower end) 2.165e+00; bound in [3.6955181300451, 3.6955181300451], F_nat = 3.6955181300451
+CERTIFIED  N=4 d=2  cells=0  (0.5s)
+N=5 d=2: LP2 slack t* = 4.611e-01; cells used 0 (of 82 rows); equations 1
+   ||I - R GG||_inf <= 0.00e+00; |correction| <= 8.76e-17; min y (lower end) inf; min off-window dual slack (lower end) 1.816e+00; bound in [4.7552825814758, 4.7552825814758], F_nat = 4.7552825814758
+CERTIFIED  N=5 d=2  cells=0  (0.7s)
+N=6 d=2: LP2 slack t* = 2.962e-01; cells used 0 (of 123 rows); equations 1
+   ||I - R GG||_inf <= 0.00e+00; |correction| <= 3.50e-16; min y (lower end) inf; min off-window dual slack (lower end) 1.553e+00; bound in [5.7955549577344, 5.7955549577344], F_nat = 5.7955549577344
+CERTIFIED  N=6 d=2  cells=0  (1.6s)
+N=7 d=2: LP2 slack t* = 2.088e-01; cells used 0 (of 123 rows); equations 1
+   ||I - R GG||_inf <= 0.00e+00; |correction| <= 9.38e-16; min y (lower end) inf; min off-window dual slack (lower end) 1.352e+00; bound in [6.8244953852728, 6.8244953852728], F_nat = 6.8244953852728
+CERTIFIED  N=7 d=2  cells=0  (1.9s)
+N=8 d=2: LP2 slack t* = 1.561e-01; cells used 0 (of 164 rows); equations 1
+   ||I - R GG||_inf <= 0.00e+00; |correction| <= 8.51e-16; min y (lower end) inf; min off-window dual slack (lower end) 1.195e+00; bound in [7.8462822432258, 7.8462822432258], F_nat = 7.8462822432258
+CERTIFIED  N=8 d=2  cells=0  (3.0s)
+SUMMARY
+  N=2 d=2: CERTIFIED
+  N=3 d=2: CERTIFIED
+  N=4 d=2: CERTIFIED
+  N=5 d=2: CERTIFIED
+  N=6 d=2: CERTIFIED
+  N=7 d=2: CERTIFIED
+  N=8 d=2: CERTIFIED

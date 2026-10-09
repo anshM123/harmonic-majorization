@@ -44,11 +44,27 @@ is conditional on:
 
 The notes will be released with the OQP 27 update (github.com/anshM123/IQOQI-OQP-27).
 
-## 3. Chained Bell inequalities (in progress)
+## 3. Chained Bell inequalities (Barrett–Kent–Pironio)
 
-Applied to the chained Bell inequalities of Barrett, Kent and Pironio, the method gives interval-certified optimality
-of their measurements among projective strategies on maximally entangled states, for a finite list of (N, d). An
-independent check of this application is in progress, and its results are not claimed here.
+Full write-up: [`05-chained-bell.md`](05-chained-bell.md); scripts, certificates and logs: [`../bell/`](../bell/README.md).
+
+**Statement.** For the chained Bell expression $I_N$ of Barrett, Kent and Pironio (PRL 97, 170409 (2006)) with N
+settings and d outcomes, every projective strategy on a maximally entangled state $\Phi_D$ (any D ≥ 1) satisfies
+$I_N\ge I_N^{\mathrm{BKP}}(d)$, the value of the BKP measurements on $\Phi_d$. For d ≥ 3, equality holds iff d divides
+D and the strategy is the BKP strategy tensored with $1_{D/d}$, up to local unitaries.
+- Proved, computer-assisted (interval arithmetic), for 3 ≤ N ≤ 8 with 3 ≤ d ≤ 10, and for N ∈ {3, 4, 5} with
+  11 ≤ d ≤ 24. The case d = 2 is Wehner's bound, and the case N = 2 is CGLMP (our OQP 27 paper).
+- This confirms, for projective measurements, the maximally-entangled values that Tavakoli, Zohren and Pawłowski
+  derived under their conjecture that the BKP-type measurements are optimal. It does not prove that conjecture, and
+  it does not settle the maximal quantum value over all states, which is strictly smaller.
+
+**How Theorem B is used.** A twirl reduces every strategy to a clock model. The chained kernel is a positive
+combination of adjacent block pairings, by concavity of k ↦ sin(πk/N). Each pairing is bounded by the continuum
+theorem of our OQP 27 paper, which rests on Theorem B for projections.
+
+**Status:** CHECKED (an internal independent check, not external refereeing; it re-verified the certificates with
+independent ball-arithmetic code). The proof depends on our unrefereed OQP 27 results
+(github.com/anshM123/IQOQI-OQP-27 and github.com/anshM123/CGLMP).
 
 ## 4. Operator algebras (in progress)
 

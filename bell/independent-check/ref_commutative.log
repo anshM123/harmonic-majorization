@@ -1,0 +1,7 @@
+﻿N=3 d=3: F_nat=7.8648373216  min over one-step=7.8648373216  max over non-one-step=5.6381557247  gap=2.2267  (#one-step=18)
+N=3 d=4: F_nat=15.8027541405  min over one-step=15.8027541405  max over non-one-step=13.6814337969  gap=2.1213  (#one-step=24)
+N=4 d=3: F_nat=11.1507748009  min over one-step=11.1507748009  max over non-one-step=9.2376043070  gap=1.9132  (#one-step=24)
+N=4 d=4: F_nat=22.3675351420  min over one-step=22.3675351420  max over non-one-step=20.5265373391  gap=1.8410  (#one-step=32)
+N=5 d=3: F_nat=14.3229721408  min over one-step=14.3229721408  max over non-one-step=12.6841283867  gap=1.6388  (#one-step=30)
+N=3 d=5: F_nat=26.4122240267  min over one-step=26.4122240267  max over non-one-step=24.3362789014  gap=2.0759  (#one-step=30)
+N=6 d=3: F_nat=17.4375714263  min over one-step=17.4375714263  max over non-one-step=16.0154815730  gap=1.4221  (#one-step=36)

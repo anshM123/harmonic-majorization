@@ -1,0 +1,16 @@
+N=3 d=3: Hessian of deficit over 17 window pairs: min eigenvalue 0.000000 (negatives: 0)
+   search M=2, 12 restarts: best F=7.8648373216  natural=7.8648373216  diff=+2.66e-15
+   search M=3, 12 restarts: best F=7.8648373216  natural=7.8648373216  diff=-1.24e-11
+   search M=4, 12 restarts: best F=7.8648373215  natural=7.8648373216  diff=-1.20e-10
+N=3 d=4: Hessian of deficit over 23 window pairs: min eigenvalue 0.000000 (negatives: 0)
+   search M=2, 12 restarts: best F=15.8027541405  natural=15.8027541405  diff=-7.11e-15
+   search M=3, 12 restarts: best F=15.8027541403  natural=15.8027541405  diff=-2.11e-10
+   search M=4, 12 restarts: best F=15.8027541404  natural=15.8027541405  diff=-1.52e-10
+N=4 d=3: Hessian of deficit over 23 window pairs: min eigenvalue 0.000000 (negatives: 0)
+   search M=2, 12 restarts: best F=11.1507748009  natural=11.1507748009  diff=-1.78e-14
+   search M=3, 12 restarts: best F=11.1507748009  natural=11.1507748009  diff=-3.00e-12
+   search M=4, 12 restarts: best F=11.1507748009  natural=11.1507748009  diff=-6.26e-12
+N=3 d=5: Hessian of deficit over 29 window pairs: min eigenvalue -0.000001 (negatives: 0)
+   search M=2, 12 restarts: best F=26.4122240267  natural=26.4122240267  diff=-3.55e-15
+   search M=3, 12 restarts: best F=26.4122240267  natural=26.4122240267  diff=-5.33e-14
+   search M=4, 12 restarts: best F=26.4122240261  natural=26.4122240267  diff=-6.05e-10

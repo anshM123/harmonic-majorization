@@ -1,0 +1,12 @@
+OWN N=3 d=3: own LP min-slack t* = 4.183e-01, rows used 1 of 41 (0.1s)
+   window tightness of used cell rows (float): max rel err 2.6e-16
+   [arb 128 bits] cells=1 min y lower = 0.2460554845830293, min off-window z lower = 0.9226107070020592, equalities enclose 0: True, max radius of (y,lambda) = 2.2e-34
+   bound = [7.86483732162113 +/- 2.24e-15], F_nat = [7.86483732162113 +/- 2.24e-15], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=3 d=3
+   total 0.1s
+THEIRS N=3 d=3 (pool 40, seed 2): LP t* = 4.183e-01, rows used 1 (0.2s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 5.3e-16
+   [arb 128 bits] cells=1 min y lower = 0.2460554845830293, min off-window z lower = 0.9226107070020592, equalities enclose 0: True, max radius of (y,lambda) = 2.2e-34
+   bound = [7.86483732162113 +/- 2.24e-15], F_nat = [7.86483732162113 +/- 2.24e-15], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=3 d=3
+   total 0.3s

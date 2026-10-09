@@ -2,7 +2,7 @@
   "title": "Harmonic majorization: pinching, non-normal spectra and two-variable trace identities",
   "upload_type": "publication",
   "publication_type": "preprint",
-  "description": "For Hermitian matrices B and g, let g_d be the pinching of g onto the eigenspaces of B. We show that the joint spectral data of (B, g) differ from those of the commuting pair (B, g_d) by a second derivative of one explicit nonnegative density rho(s,tau) = (1/2pi) sum |Im xi_i|, where xi_i are the roots of det(g - s - xi(P - tau)), P = 1 - B. Theorem A (pinched two-variable BMV identity, general multiplicities) states Tr e^{ag - tP} - Tr e^{a g_d - tP} = a^2 int int e^{as - t tau} rho for all complex (a,t); its generic case is Heinavaara's explicit BMV measure. Theorem B (harmonic pinching): the eigenvalues of the non-normal matrix B + ig, swept to either edge of the strip 0 <= Re z <= 1 by harmonic measure, dominate those of B + i g_d in convex order, with equality iff B and g commute. Theorem C gives a quantitative lower bound with an explicit kernel weight. Theorem A (for P with spectrum in [0,1]; general P by rescaling), Theorem B (defect identity and equality case) and Theorem C are machine-checked in Lean 4 with Mathlib, using only the standard axioms. We also give a holomorphic form, a half-plane version for accretive matrices, superharmonic majorization for two-level B (containing the two-level cases of Theorem B and of Ky Fan's theorem), refutations of natural generalizations, and applications to trace inequalities for word averages (exact gap formula; Dinh's pinching inequality for all word lengths). An application to CGLMP Bell inequalities with POVMs is announced.",
+  "description": "For Hermitian matrices B and g, let g_d be the pinching of g onto the eigenspaces of B. We show that the joint spectral data of (B, g) differ from those of the commuting pair (B, g_d) by a second derivative of one explicit nonnegative density rho(s,tau) = (1/2pi) sum |Im xi_i|, where xi_i are the roots of det(g - s - xi(P - tau)), P = 1 - B. Theorem A (pinched two-variable BMV identity, general multiplicities) states Tr e^{ag - tP} - Tr e^{a g_d - tP} = a^2 int int e^{as - t tau} rho for all complex (a,t); its generic case is Heinavaara's explicit BMV measure. Theorem B (harmonic pinching): the eigenvalues of the non-normal matrix B + ig, swept to either edge of the strip 0 <= Re z <= 1 by harmonic measure, dominate those of B + i g_d in convex order, with equality iff B and g commute. Theorem C gives a quantitative lower bound with an explicit kernel weight. Theorem A (for P with spectrum in [0,1]; general P by rescaling), Theorem B (defect identity and equality case) and Theorem C are machine-checked in Lean 4 with Mathlib, using only the standard axioms. We also give a holomorphic form, a half-plane version for accretive matrices, superharmonic majorization for two-level B (containing the two-level cases of Theorem B and of Ky Fan's theorem), refutations of natural generalizations, and applications to trace inequalities for word averages (exact gap formula; Dinh's pinching inequality for all word lengths). For the chained Bell inequalities of Barrett, Kent and Pironio we prove, with interval-arithmetic certificates, the optimal value and rigidity among projective strategies on maximally entangled states for 3 <= N <= 8, 3 <= d <= 10 and N in {3,4,5}, 11 <= d <= 24. An application to CGLMP Bell inequalities with POVMs is announced.",
   "creators": [
     {
       "name": "Mishra, Ansh"
@@ -22,7 +22,9 @@
     "Stahl's theorem",
     "trace inequalities",
     "Lean 4",
-    "formal verification"
+    "formal verification",
+    "Bell inequalities",
+    "chained Bell inequality"
   ],
   "version": "1.0",
   "language": "eng"

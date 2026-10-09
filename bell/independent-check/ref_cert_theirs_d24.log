@@ -1,0 +1,12 @@
+THEIRS N=4 d=24 (pool 120, seed 3): LP t* = 1.917e-02, rows used 22 (141.8s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 5.0e-14
+   [arb 128 bits] cells=22 min y lower = 0.0013160104197712664, min off-window z lower = 0.04852588580343135, equalities enclose 0: True, max radius of (y,lambda) = 7.0e-30
+   bound = [1036.69898510615 +/- 2.72e-12], F_nat = [1036.69898510615 +/- 2.72e-12], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=4 d=24
+   total 144.2s
+THEIRS N=5 d=24 (pool 120, seed 3): LP t* = 1.545e-02, rows used 25 (246.5s)
+   authors' float kernel vs independent kernel on used rows: max rel diff 5.7e-14
+   [arb 128 bits] cells=25 min y lower = 0.0003160265930905537, min off-window z lower = 0.05765247167969531, equalities enclose 0: True, max radius of (y,lambda) = 7.7e-30
+   bound = [1327.26640159411 +/- 1.59e-12], F_nat = [1327.26640159411 +/- 1.59e-12], (bound - F_nat) contains 0: True
+RIGOROUSLY VERIFIED  N=5 d=24
+   total 250.0s

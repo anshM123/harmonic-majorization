@@ -1,0 +1,2 @@
+N=3 d=16: cells=41  window tightness max rel err=5.76e-16  LP status=0  LP max F=319.4492932033  F_nat=319.4492932033  gap=+2.274e-13
+N=4 d=12: cells=41  window tightness max rel err=4.85e-16  LP status=0  LP max F=247.5286806028  F_nat=247.5286806028  gap=+2.558e-13

@@ -1,0 +1,9 @@
+(1) partial fractions: max rel err 1.4e-13
+(2) Lemma II.2 decomposition on random configurations: max rel err 3.8e-14
+(3) N=4 d=3 s=2 ell=[np.float64(0.5), np.float64(1.75), np.float64(0.75)] M=2: max cell functional 53.4566696704  bound L^2 Phi_c = 53.4566696704  diff +7.11e-14
+(3) N=4 d=3 s=2 ell=[np.int64(1), np.int64(1), np.int64(1)] M=3: max cell functional 53.4566696704  bound L^2 Phi_c = 53.4566696704  diff +2.20e-13
+(3) N=5 d=3 s=2 ell=[np.float64(2.25), np.float64(0.25), np.float64(0.5)] M=2: max cell functional 81.2572297355  bound L^2 Phi_c = 81.2572297355  diff +4.55e-13
+(3) N=6 d=3 s=3 ell=[np.float64(0.375), np.float64(1.5), np.float64(1.125)] M=2: max cell functional 120.2775067583  bound L^2 Phi_c = 120.2775067583  diff +2.84e-13
+(3) N=6 d=4 s=2 ell=[np.float64(1.5), np.float64(0.5), np.float64(1.25), np.float64(0.75)] M=2: max cell functional 197.4433629874  bound L^2 Phi_c = 197.4433629874  diff +3.98e-13
+(3) N=3 d=4 s=1 ell=[np.float64(0.25), np.float64(2.0), np.float64(1.0), np.float64(0.75)] M=3: max cell functional 49.3608407469  bound L^2 Phi_c = 49.3608407469  diff +8.53e-14
+(3) N=5 d=4 s=2 ell=[np.int64(1), np.int64(1), np.int64(1), np.int64(1)] M=2: max cell functional 144.4572973076  bound L^2 Phi_c = 144.4572973076  diff +5.68e-13

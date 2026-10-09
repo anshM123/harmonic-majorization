@@ -1,0 +1,10 @@
+using the Regime I certificate cells
+N=2 d=2: cells=7  window tightness max rel err=8.97e-16  LP status=0  LP max F=1.4142135624  F_nat=1.4142135624  gap=+2.220e-16
+using the Regime I certificate cells
+N=2 d=3: cells=14  window tightness max rel err=7.98e-16  LP status=0  LP max F=4.3094010768  F_nat=4.3094010768  gap=+0.000e+00
+using the Regime I certificate cells
+N=2 d=4: cells=20  window tightness max rel err=5.98e-16  LP status=0  LP max F=8.6887296554  F_nat=8.6887296554  gap=+7.105e-15
+using the Regime I certificate cells
+N=2 d=5: cells=27  window tightness max rel err=9.57e-16  LP status=0  LP max F=14.5527240404  F_nat=14.5527240404  gap=+8.882e-15
+using the Regime I certificate cells
+N=2 d=6: cells=31  window tightness max rel err=6.65e-16  LP status=0  LP max F=21.9015270478  F_nat=21.9015270478  gap=+1.776e-14

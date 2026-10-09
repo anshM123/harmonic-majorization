@@ -1,0 +1,5 @@
+N=3 d=3: max over trials of (cell functional - bound) = 7.461e-14 (must be <= 0); max F - F_nat = 7.994e-15 (must be <= 0)
+N=4 d=3: max over trials of (cell functional - bound) = 3.837e-13 (must be <= 0); max F - F_nat = 7.994e-15 (must be <= 0)
+N=3 d=4: max over trials of (cell functional - bound) = 3.837e-13 (must be <= 0); max F - F_nat = 1.066e-14 (must be <= 0)
+N=5 d=3: max over trials of (cell functional - bound) = 3.837e-13 (must be <= 0); max F - F_nat = 1.066e-14 (must be <= 0)
+N=4 d=4: max over trials of (cell functional - bound) = 3.837e-13 (must be <= 0); max F - F_nat = 1.066e-14 (must be <= 0)
