@@ -1,0 +1,34 @@
+random: 20000 pairs (3-6 levels), 4 test functions each: min D/||K||^2 = 2.209e-02 at (19261, 6, np.int64(0))
+[elapsed 4s]
+adversarial round  0 (m=3): min D/||K||^2 = -1.2224e-17
+adversarial round  1 (m=4): min D/||K||^2 = -3.1684e-17
+adversarial round  2 (m=5): min D/||K||^2 = 1.0584e-07
+adversarial round  3 (m=3): min D/||K||^2 = 8.5413e-16
+adversarial round  4 (m=4): min D/||K||^2 = 9.4608e-16
+adversarial round  5 (m=5): min D/||K||^2 = 2.3925e-08
+adversarial round  6 (m=3): min D/||K||^2 = -2.6737e-16
+adversarial round  7 (m=4): min D/||K||^2 = 2.4972e-16
+adversarial round  8 (m=5): min D/||K||^2 = 1.0131e-07
+adversarial round  9 (m=3): min D/||K||^2 = -2.3922e-16
+adversarial round 10 (m=4): min D/||K||^2 = -4.1578e-17
+adversarial round 11 (m=5): min D/||K||^2 = 1.0283e-07
+adversarial round 12 (m=3): min D/||K||^2 = -2.2417e-16
+adversarial round 13 (m=4): min D/||K||^2 = 2.0487e-15
+adversarial round 14 (m=5): min D/||K||^2 = 1.7189e-08
+adversarial round 15 (m=3): min D/||K||^2 = 2.6588e-16
+adversarial round 16 (m=4): min D/||K||^2 = -2.1299e-17
+adversarial round 17 (m=5): min D/||K||^2 = 4.6520e-08
+adversarial round 18 (m=3): min D/||K||^2 = 4.1908e-16
+adversarial round 19 (m=4): min D/||K||^2 = 1.5115e-15
+adversarial round 20 (m=5): min D/||K||^2 = 4.7520e-08
+adversarial round 21 (m=3): min D/||K||^2 = 1.0588e-15
+adversarial round 22 (m=4): min D/||K||^2 = 5.8602e-16
+adversarial round 23 (m=5): min D/||K||^2 = 6.9381e-08
+adversarial round 24 (m=3): min D/||K||^2 = -3.8016e-17
+adversarial round 25 (m=4): min D/||K||^2 = 1.5566e-16
+adversarial round 26 (m=5): min D/||K||^2 = 5.3026e-08
+adversarial round 27 (m=3): min D/||K||^2 = 1.4039e-16
+adversarial round 28 (m=4): min D/||K||^2 = 2.1867e-16
+adversarial round 29 (m=5): min D/||K||^2 = 4.5372e-08
+adversarial minimum: -2.6737e-16
+time 119s

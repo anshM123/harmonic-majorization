@@ -1,0 +1,19 @@
+case 0 (M=3): sum f(lambda) = 1.40432966;  tr a(B) + tr c(g) + (1/2pi) int Psi(-Lap f) = 1.40432251 (n=160) / 1.40432251 (n=96);  diff 7.15e-06
+      check of Psi normalisation: int Psi = 3.084474 vs (pi/2) dep(T)^2 = 3.084526
+      D_sep-type defect sum_X f - sum_XE f = 1.64682706;  pinching term + Psi term = 1.64681991
+case 1 (M=3): sum f(lambda) = 0.85951711;  tr a(B) + tr c(g) + (1/2pi) int Psi(-Lap f) = 0.85953498 (n=160) / 0.85947433 (n=96);  diff -1.79e-05
+      check of Psi normalisation: int Psi = 2.799322 vs (pi/2) dep(T)^2 = 2.799433
+      D_sep-type defect sum_X f - sum_XE f = 1.75106922;  pinching term + Psi term = 1.75108710
+case 2 (M=3): sum f(lambda) = -0.22145012;  tr a(B) + tr c(g) + (1/2pi) int Psi(-Lap f) = -0.22145063 (n=160) / -0.22145059 (n=96);  diff 5.10e-07
+      check of Psi normalisation: int Psi = 1.614606 vs (pi/2) dep(T)^2 = 1.614604
+      D_sep-type defect sum_X f - sum_XE f = 0.26249549;  pinching term + Psi term = 0.26249498
+case 3 (M=4): sum f(lambda) = 0.46970635;  tr a(B) + tr c(g) + (1/2pi) int Psi(-Lap f) = 0.46971881 (n=160) / 0.46967849 (n=96);  diff -1.25e-05
+      check of Psi normalisation: int Psi = 1.651046 vs (pi/2) dep(T)^2 = 1.651034
+      D_sep-type defect sum_X f - sum_XE f = 3.49364219;  pinching term + Psi term = 3.49365465
+case 4 (M=4): sum f(lambda) = -2.33319627;  tr a(B) + tr c(g) + (1/2pi) int Psi(-Lap f) = -2.33320238 (n=160) / -2.33321493 (n=96);  diff 6.12e-06
+      check of Psi normalisation: int Psi = 3.801899 vs (pi/2) dep(T)^2 = 3.801939
+      D_sep-type defect sum_X f - sum_XE f = 1.90629735;  pinching term + Psi term = 1.90629123
+case 5 (M=4): sum f(lambda) = -4.44475929;  tr a(B) + tr c(g) + (1/2pi) int Psi(-Lap f) = -4.44477112 (n=160) / -4.44475789 (n=96);  diff 1.18e-05
+      check of Psi normalisation: int Psi = 2.385023 vs (pi/2) dep(T)^2 = 2.385137
+      D_sep-type defect sum_X f - sum_XE f = 3.44521943;  pinching term + Psi term = 3.44520760
+time 28s

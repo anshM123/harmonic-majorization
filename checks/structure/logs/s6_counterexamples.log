@@ -1,0 +1,41 @@
+s6_counterexamples.py:175: RuntimeWarning: overflow encountered in square
+  dens += np.sin(np.pi * x) / (2 * (2 * np.sinh(np.pi * (y - ws) / 2) ** 2 + 2 * np.sin(np.pi * x / 2) ** 2))
+s6_counterexamples.py:175: RuntimeWarning: overflow encountered in multiply
+  dens += np.sin(np.pi * x) / (2 * (2 * np.sinh(np.pi * (y - ws) / 2) ** 2 + 2 * np.sin(np.pi * x / 2) ** 2))
+s6_counterexamples.py:175: RuntimeWarning: overflow encountered in sinh
+  dens += np.sin(np.pi * x) / (2 * (2 * np.sinh(np.pi * (y - ws) / 2) ** 2 + 2 * np.sin(np.pi * x / 2) ** 2))
+== CE1: B = diag(1,0,0), 'g tridiagonal (1/4, 1/100)'
+   reading A (our notes): zero diagonal, g12 = 1/4, g23 = 1/100: char poly nu**3 - nu**2 + 313*nu/5000 - 1/10000
+      real coefficients: True; discriminant 165619531/62500000000 (>0); spec(B+ig) = [(0.0016403572+0j), (0.0653386518+0j), (0.9330209911+0j)]
+      entirely real: True;  spec E(g) = [-1/100, 0, 1/100];  sum (Im nu)^2 = 0.000e+00 vs sum spec(Eg)^2 = 2.000e-04
+   reading B: zero diagonal, g12 = 1/100, g23 = 1/4: char poly nu**3 - nu**2 + 313*nu/5000 - 1/16
+      real coefficients: True; discriminant -17631640469/62500000000 (n/a); spec(B+ig) = [(0.9999058745+0j), (4.70627e-05-0.2500117621j), (4.70627e-05+0.2500117621j)]
+      entirely real: False;  spec E(g) = [-1/4, 0, 1/4];  sum (Im nu)^2 = 1.250e-01 vs sum spec(Eg)^2 = 1.250e-01
+   reading C: Toeplitz tridiag(diagonal 1/4, off-diagonal 1/100): char poly nu**3 + nu**2*(-1 - 3*I/4) + nu*(-1873/10000 + I/2) + 39/625 + 623*I/40000
+      real coefficients: False; discriminant -24991877/62500000000 (n/a); spec(B+ig) = [(5e-05+0.239999625j), (5e-05+0.260000375j), (0.9999+0.25j)]
+      entirely real: False;  spec E(g) = [6/25, 1/4, 13/50];  sum (Im nu)^2 = 1.877e-01 vs sum spec(Eg)^2 = 1.877e-01
+   reading D: Toeplitz tridiag(diagonal 1/100, off-diagonal 1/4): char poly nu**3 + nu**2*(-1 - 3*I/100) + nu*(1247/10000 + I/50) - 39/625 - 1249*I/1000000
+      real coefficients: False; discriminant -53/256 (n/a); spec(B+ig) = [(0.0311124122-0.246279383j), (0.0311124122+0.266279383j), (0.9377751756+0.01j)]
+      entirely real: False;  spec E(g) = [-6/25, 1/100, 13/50];  sum (Im nu)^2 = 1.317e-01 vs sum spec(Eg)^2 = 1.253e-01
+
+== CE3: partial pinching, B = diag(1, 1/2, 0), F = {{1,0},{1/2}}
+   E_F(g) = (g + VgV)/2 = [[0.5, 0.0, 1.0], [0.0, -1.0, 0.0], [1.0, 0.0, 0.5]]  (V = diag(1,-1,1) commutes with B)
+   grid min -0.030267364258 at side L, lam 0.700;  refined min -0.0302673786377 at lam 0.69982612;  value at lam = 0.7: -0.030267364258
+   1-D projections: max_xi,w [N_(xi,E_F g) - N_(xi,g)] = 3.553e-15;  max increase of ||Q_j g Q_k||^2 = 0.000e+00;  max|E(E_F g) - E(g)| = 0.0e+00
+
+   adjacent merge F = {{1,1/2},{0}} (our notes): g = [[1/4,7/4,1/2],[7/4,1/2,-1],[1/2,-1,-3/4]]
+   grid min -0.00919241798843 at side R, lam 0.550;  refined min -0.00920913742683 at lam 0.56798596
+
+== CE4: projection B = diag(1,1,0), Phi(g) = (g + U g U*)/2, U = [[0,-1,0],[1,0,0],[0,0,1]]
+   U commutes with B: True
+   Phi(g) = [[1.0, 0.0, -0.5], [0.0, 1.0, -0.5], [-0.5, -0.5, 0.0]]
+   grid min -0.0824160769101 at side L, lam 0.450;  refined min -0.0824668191932 at lam 0.46053538;  value at lam = 0.45: -0.0824160769101
+   1-D projections: max_xi,w [N_(xi,Phi g) - N_(xi,g)] = 5.245e-01;  max increase of ||Q_j g Q_k||^2 = -5.000e-01;  max|E(Phi g) - E(g)| = 2.0e+00  (E o Phi != E here)
+
+== CE6: log-potential comparison, B = diag(1,0), g = [[0,1/4],[1/4,0]]
+   z = -1.0: log|det(z-X)| - log|det(z-X_E)| = 0.03077165867
+   z = (0.5 + 1.0j): log|det(z-X)| - log|det(z-X_E)| = -0.05129329439
+
+== SH: naive Schur-Horn converse; left-sweep density of [[1+ia, i s],[i s, i d]] away from d
+   sigma in [1e-4, 1e4] (161 values): max density on |w - d| >= 0.5: 0.7419  (bounded => no atoms at d+-1)
+time 5s

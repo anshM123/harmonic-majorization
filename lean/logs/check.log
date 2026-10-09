@@ -1,0 +1,116 @@
+# bash check.sh, run 2026-10-08 on Lean v4.33.1 with Mathlib at the revision pinned in lake-manifest.json
+# (the Mathlib packages of that revision were reused from a local checkout instead of downloaded)
+== keyword scan (code lines only; docstrings mention 'no sorry') ==
+none
+OQP27.StripJensen                        exit=0    19s
+OQP27.StripPencil                        exit=0    15s
+OQP27.StripSlice                         exit=0    14s
+OQP27.StripBounds                        exit=0    16s
+OQP27.StripBMV                           exit=0    15s
+HarmonicMajorization.SpecDecomp          exit=0    13s
+HarmonicMajorization.PencilGen           exit=0    15s
+HarmonicMajorization.TheoremAGen         exit=0    14s
+HarmonicMajorization.Duhamel             exit=0    13s
+HarmonicMajorization.MarginalGen         exit=0    14s
+OQP27.StripKernel                        exit=0    16s
+OQP27.StripPoisson                       exit=0    15s
+OQP27.StripSpectral                      exit=0    14s
+OQP27.StripFromBMV                       exit=0    16s
+HarmonicMajorization.PoissonGen          exit=0    15s
+HarmonicMajorization.TheoremBGen         exit=0    15s
+OQP27.StripRIContour                     exit=0    14s
+OQP27.StripRIPencil                      exit=0    14s
+OQP27.StripRISums                        exit=0    14s
+OQP27.StripRISmooth                      exit=0    16s
+OQP27.StripRIEnds                        exit=0    18s
+OQP27.StripRIBoundary                    exit=0    19s
+OQP27.StripRIAssembly                    exit=0    20s
+OQP27.StripRIMain                        exit=0    19s
+HarmonicMajorization.MarginalProj        exit=0    20s
+OQP27.StripTheorem2                      exit=0    16s
+OQP27.Statement                          exit=0    19s
+OQP27.CertDefs                           exit=0    16s
+OQP27.Skeleton                           exit=0    19s
+OQP27.StripSkeleton                      exit=0    15s
+OQP27.StripRIChain                       exit=0    15s
+HarmonicMajorization.TheoremCProj        exit=0    18s
+HarmonicMajorization.TheoremCGen         exit=0    21s
+HarmonicMajorization.AxiomsGen           exit=0    19s
+HarmonicMajorization.AxiomsProj          exit=0    17s
+HarmonicMajorization.RIG1                exit=0    23s
+HarmonicMajorization.RIG2                exit=0    24s
+HarmonicMajorization.RIG3a               exit=0    25s
+HarmonicMajorization.RIG3b               exit=0    37s
+HarmonicMajorization.RIG4a               exit=0    16s
+HarmonicMajorization.RIG4b               exit=0    16s
+HarmonicMajorization.MainGen             exit=0    13s
+HarmonicMajorization.RightEdge           exit=0    16s
+HarmonicMajorization.DensityGen          exit=0    15s
+HarmonicMajorization.SliceGen            exit=0    17s
+HarmonicMajorization.MassGen             exit=0    15s
+HarmonicMajorization.AxiomsRI            exit=0    15s
+== axioms (every line below must end with [propext, Classical.choice, Quot.sound]) ==
+'HarmonicMajorization.inv_sub_eq_fcalc' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.isHermitian_inv_mul_pinchH' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.normSq_nonreal_root_le_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.rhoG_le_domG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.measurable_rhoG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.radon_eq_sliceFunG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremA_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.laplaceG_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.integral_sin_mul_rhoG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.DensityRegG.continuous_stripBalayage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.fourier_rampDefect2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.re_mem_Icc_of_mem_roots_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.mass_moment_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.bmvDG_sub_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB_gen_ineq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB_gen_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.stripBalayage_ge_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremC_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.trace_duhamel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.trace_exp_add_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.continuous_phi2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.laplaceF_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.integral_sin_mul_stripF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.kernel_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.frobNorm_comm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.stripBalayage_ge_proj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremC_proj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.pencilRoot_im_bounds_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.pencilRoot_norm_bound_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.norm_Sup_sub_le_gap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.upper_global_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.dichotomy' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.charpoly_WmatP_self_pinch' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.Gup_cancel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.exists_int_GupG_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.PsiG_sub_E_affine' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.tendsto_imAbsSum_vertical_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.tendsto_im_PsiG' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.radon_identity_gaps' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.integrable_imAbsSum_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.radon_identity_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.hyp_RI_gen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremA' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.tau_marginal' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.sine_moment' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB_ineq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremC_balayage' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremC' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.sproj_eq_aeval_lagP' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.pinchH_one_sub' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.roots_charpoly_one_sub_add' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB_right_ineq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremB_right_eq_iff' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremA_package' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.total_mass' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.sliceMass_ae_eq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.frobNorm_sub_pinchH_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.total_mass_frob' depends on axioms: [propext, Classical.choice, Quot.sound]
+== nonstandard axiom lines (should be empty) ==
+none

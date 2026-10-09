@@ -1,0 +1,46 @@
+s4_Dsep.py:66: RuntimeWarning: overflow encountered in square
+  (lambda y: kap / np.cosh((y - y0) / s) ** 2)
+s4_Dsep.py:73: RuntimeWarning: overflow encountered in square
+  (lambda y: kap * 4 * np.exp((y - y0) / s) / (1 + np.exp((y - y0) / s)) ** 2)
+s4_Dsep.py:177: RuntimeWarning: overflow encountered in square
+  k = np.max(kap / np.cosh((ys - y0) / s) ** 2)
+s4_Dsep.py:177: RuntimeWarning: overflow encountered in cosh
+  k = np.max(kap / np.cosh((ys - y0) / s) ** 2)
+s4_Dsep.py:178: RuntimeWarning: overflow encountered in cosh
+  u = lambda z: -k * z.real ** 2 / 2 + kap * s ** 2 * np.log(np.cosh((z.imag - y0) / s))
+s4_Dsep.py:179: RuntimeWarning: invalid value encountered in scalar subtract
+  return (np.sum(u(c["nu"])) - np.sum(u(c["nuE"]))) / c["K2"]
+== Part 1: trace identity (50 digits)
+   30 random pairs: max |Re Tr X^2 - (Tr B^2 - ||g||^2)| and max |sum Im^2 - ||Eg||^2 - (||K||^2 - L)| = 4.28e-48; L >= 0 in all cases
+
+== Part 2: D_sep on 20000 random pairs (borderline a'' = -kappa_Rect + concave part)
+   significant negatives: 0;  min D/||K||^2 = 0.000e+00 at (4938, 'k s^2 softplus', np.int64(0), 5, 0.02023215699059322)
+   [elapsed 6s]
+
+== Part 3: oblique ridges with borderline curvature budget
+   5000 pairs: significant negatives 0;  min D/||K||^2 = 5.243e-04
+
+== Part 4: adversarial minimisation (separable u, 3-5 levels)
+   round  0 (m=3): min D/||K||^2 = -3.3534e-17
+   round  1 (m=4): min D/||K||^2 = 8.7783e-04
+   round  2 (m=5): min D/||K||^2 = 3.2329e-04
+   round  3 (m=3): min D/||K||^2 = 4.5509e-11
+   round  4 (m=4): min D/||K||^2 = 5.4456e-06
+   round  5 (m=5): min D/||K||^2 = 7.0090e-04
+   round  6 (m=3): min D/||K||^2 = -5.9048e-16
+   round  7 (m=4): min D/||K||^2 = 1.4963e-03
+   round  8 (m=5): min D/||K||^2 = 1.1096e-03
+   round  9 (m=3): min D/||K||^2 = -4.2484e-16
+   round 10 (m=4): min D/||K||^2 = 1.7702e-03
+   round 11 (m=5): min D/||K||^2 = 1.1957e-03
+   round 12 (m=3): min D/||K||^2 = -2.4726e-16
+   round 13 (m=4): min D/||K||^2 = 2.8057e-04
+   round 14 (m=5): min D/||K||^2 = 1.0568e-03
+   round 15 (m=3): min D/||K||^2 = 9.3585e-07
+   round 16 (m=4): min D/||K||^2 = 7.1979e-05
+   round 17 (m=5): min D/||K||^2 = 9.3663e-04
+   adversarial minimum: -5.9048e-16
+
+== Part 5: CE1 with u = y^2 (not in the separable class): defect = ||K||^2 - L
+   ||K||^2 = 0.125000, L = 0.125200, defect(y^2) = -2.000e-04 (= ||K||^2 - L = -2.000e-04)
+time 69s

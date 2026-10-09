@@ -1,0 +1,11 @@
+-- `lean HarmonicMajorization/AxiomsProj.lean` against a clean rebuild from source (2026-10-08);
+-- exit code 0; 9 declarations; nonstandard: 0
+'HarmonicMajorization.trace_duhamel' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.trace_exp_add_smul' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.continuous_phi2' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.laplaceF_zero' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.integral_sin_mul_stripF' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.kernel_lower_bound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.frobNorm_comm_sq' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.stripBalayage_ge_proj' depends on axioms: [propext, Classical.choice, Quot.sound]
+'HarmonicMajorization.theoremC_proj' depends on axioms: [propext, Classical.choice, Quot.sound]

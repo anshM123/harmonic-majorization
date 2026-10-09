@@ -1,0 +1,61 @@
+== Part 0: closed form of h_lambda vs quadrature
+   x=0.3, y=0.2, lam=0.0: closed 0.19062043233932747017  quad 0.19062043233932747017  |diff| 0.0
+   x=0.01, y=-1.0, lam=0.5: closed 0.000028719126057292665309  quad 0.000028719126057292665309  |diff| 9.03e-36
+   x=0.97, y=2.0, lam=-1.0: closed 0.090000769452362681692  quad 0.090000769452362681692  |diff| 0.0
+   x=0.5, y=0.0, lam=0.0: closed 0.092806718177693040738  quad 0.092806718177693040738  |diff| 0.0
+   x=0.0001, y=0.3, lam=0.3: closed 0.00028856734424619278142  quad 0.00028856734424619278142  |diff| 6.79e-33
+   x=0.999, y=-0.7, lam=1.4: closed 4.3387342872414163797e-7  quad 4.3387342872414163797e-7  |diff| 4.89e-36
+   x=0.25, y=3.0, lam=-2.0: closed 3.7500000107970101766  quad 3.7500000107970101766  |diff| 3.94e-31
+   x=0.6, y=-2.5, lam=1.0: closed 1.6165465535631869847e-6  quad 1.6165465535631869847e-6  |diff| 9.4e-37
+   worst |diff| = 3.94e-31
+
+== Part 1: Theorem B identity W(lambda) = V(lambda) (left and right edges), levels {0, 0.4, 0.4, 1}
+   L lam=-1.000000: W = 0.93718855094239   V = 0.93718855094239   |W-V| = 1.8e-15
+   L lam=+0.000000: W = 0.68496485908726   V = 0.68496485908712   |W-V| = 1.4e-13
+   L lam=+0.370000: W = 0.54749499118429   V = 0.54749499118428   |W-V| = 2.0e-15
+   L lam=-0.468634: W = 0.835824008075   V = 0.83582400807500   |W-V| = 6.4e-15
+   R lam=-1.000000: W = 0.28357902864927   V = 0.28357902864928   |W-V| = 9.0e-15
+   R lam=+0.000000: W = 0.61527617673378   V = 0.61527617673380   |W-V| = 1.8e-14
+   R lam=+0.370000: W = 0.77142967010541   V = 0.77142967010542   |W-V| = 1.0e-14
+   R lam=-0.468634: W = 0.42578261201447   V = 0.42578261201456   |W-V| = 8.9e-14
+   [elapsed 302s]
+
+== Part 2: D2 on random two-level pairs
+   4000 random pairs x 7 test functions (+ harmonic sweeps every 10th): significant negatives = 0
+   min D/||K||^2 = 1.036e-19  at (360, 'sweep L lam=+0.08', [-0.33219373583502687, -0.1429141040976652], np.int64(3), 2.399127058538108e-18, 23.1574573477668)
+   [elapsed 305s]
+
+== Part 3: adversarial minimisation of D/||K||^2 over g (two levels)
+   round  0: mult 1+1, u = cos*sqrt(k=1.24,s0=1.21)        : min D/||K||^2 = -3.4636e-15
+   round  1: mult 1+2, u = cos*sqrt(k=1.23,s0=1.17)        : min D/||K||^2 = -9.7333e-17
+   round  2: mult 2+1, u = cos*sqrt(k=1.10,s0=2.70)        : min D/||K||^2 = -2.7178e-16
+   round  3: mult 2+2, u = min-cos*sqrt (kinked)           : min D/||K||^2 = 2.2155e-14
+   round  4: mult 1+3, u = -(x-x0)^2                       : min D/||K||^2 = 2.4762e-28
+   round  5: mult 3+2, u = -|x-x0|                         : min D/||K||^2 = 1.4067e-12
+   round  6: mult 2+3, u = sep: -k x^2/2 + k s^2 logcosh   : min D/||K||^2 = 1.0695e-06
+   round  7: mult 1+1, u = cos*sqrt(k=0.95,s0=2.09)        : min D/||K||^2 = -7.9224e-17
+   round  8: mult 1+2, u = cos*sqrt(k=2.94,s0=0.41)        : min D/||K||^2 = -4.2234e-17
+   round  9: mult 2+1, u = cos*sqrt(k=0.72,s0=2.17)        : min D/||K||^2 = -6.5192e-17
+   round 10: mult 2+2, u = min-cos*sqrt (kinked)           : min D/||K||^2 = 1.6778e-14
+   round 11: mult 1+3, u = -(x-x0)^2                       : min D/||K||^2 = 1.2571e-28
+   round 12: mult 3+2, u = -|x-x0|                         : min D/||K||^2 = 3.6993e-12
+   round 13: mult 2+3, u = sep: -k x^2/2 + k s^2 logcosh   : min D/||K||^2 = 6.8755e-06
+   round 14: mult 1+1, u = cos*sqrt(k=2.32,s0=1.23)        : min D/||K||^2 = -1.4587e-16
+   round 15: mult 1+2, u = cos*sqrt(k=2.55,s0=0.75)        : min D/||K||^2 = 1.6857e-17
+   round 16: mult 2+1, u = cos*sqrt(k=0.97,s0=1.58)        : min D/||K||^2 = -5.2111e-17
+   round 17: mult 2+2, u = min-cos*sqrt (kinked)           : min D/||K||^2 = 1.9663e-14
+   round 18: mult 1+3, u = -(x-x0)^2                       : min D/||K||^2 = 5.3560e-28
+   round 19: mult 3+2, u = -|x-x0|                         : min D/||K||^2 = 5.8253e-13
+   round 20: mult 2+3, u = sep: -k x^2/2 + k s^2 logcosh   : min D/||K||^2 = 4.8550e-06
+   round 21: mult 1+1, u = cos*sqrt(k=2.39,s0=1.01)        : min D/||K||^2 = -1.8196e-15
+   round 22: mult 1+2, u = cos*sqrt(k=2.73,s0=0.53)        : min D/||K||^2 = -4.0997e-16
+   round 23: mult 2+1, u = cos*sqrt(k=2.80,s0=0.67)        : min D/||K||^2 = -5.0866e-17
+   adversarial minimum over all rounds: -3.4636e-15
+   [elapsed 419s]
+
+== Part 4: exact two-level identity (2.5) for u = cos(k(x-c)) sqrt(s0^2+(y-y0)^2)
+   case 0: mult 1+1, [0.0,1.0]: LHS = 0.882222065108   int u_yy dR^flat = 0.164711358046   int(-Lap u)T = 0.717510707057   RHS = 0.882222065103   |diff| = 5.0e-12
+   case 1: mult 2+1, [-0.4,1.1]: LHS = 1.837857021406   int u_yy dR^flat = 0.467149515995   int(-Lap u)T = 1.370707505563   RHS = 1.837857021557   |diff| = 1.5e-10
+   case 2: mult 2+2, [0.5,2.5]: LHS = 6.863105736469   int u_yy dR^flat = 1.696088178420   int(-Lap u)T = 5.167017558186   RHS = 6.863105736607   |diff| = 1.4e-10
+   case 3: mult 1+3, [0.0,0.6]: LHS = 1.564599572541   int u_yy dR^flat = 0.334863112590   int(-Lap u)T = 1.229736459416   RHS = 1.564599572005   |diff| = 5.4e-10
+time 445s

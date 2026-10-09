@@ -1,0 +1,43 @@
+s4_Dsep.py:79: RuntimeWarning: overflow encountered in square
+  (lambda y: kap * 4 * np.exp((y - y0) / s) / (1 + np.exp((y - y0) / s)) ** 2)
+s4_Dsep.py:72: RuntimeWarning: overflow encountered in square
+  (lambda y: kap / np.cosh((y - y0) / s) ** 2)
+s4_Dsep.py:183: RuntimeWarning: overflow encountered in square
+  k = np.max(kap / np.cosh((ys - y0) / s) ** 2)
+s4_Dsep.py:183: RuntimeWarning: overflow encountered in cosh
+  k = np.max(kap / np.cosh((ys - y0) / s) ** 2)
+== Part 1: trace identity (50 digits)
+   30 random pairs: max |Re Tr X^2 - (Tr B^2 - ||g||^2)| and max |sum Im^2 - ||Eg||^2 - (||K||^2 - L)| = 3.51e-48; L >= 0 in all cases
+
+== Part 2: D_sep on 40000 random pairs (borderline a'' = -kappa_Rect + concave part)
+   significant negatives: 0;  min D/||K||^2 = 4.896e-16 at (14868, 'k s^2 logcosh', np.int64(0), 11, 0.22674094102365772)
+   [elapsed 12s]
+
+== Part 3: oblique ridges with borderline curvature budget
+   10000 pairs: significant negatives 0;  min D/||K||^2 = 5.230e-05
+
+== Part 4: adversarial minimisation (separable u, 3-5 levels)
+   round  0 (m=3): min D/||K||^2 = -7.8208e-17
+   round  1 (m=4): min D/||K||^2 = 1.1210e-18
+   round  2 (m=5): min D/||K||^2 = 2.9861e-08
+   round  3 (m=3): min D/||K||^2 = -1.7051e-17
+   round  4 (m=4): min D/||K||^2 = 2.5550e-17
+   round  5 (m=5): min D/||K||^2 = 7.0660e-08
+   round  6 (m=3): min D/||K||^2 = 7.4753e-51
+   round  7 (m=4): min D/||K||^2 = 7.1204e-18
+   round  8 (m=5): min D/||K||^2 = 1.0573e-07
+   round  9 (m=3): min D/||K||^2 = 1.5334e-50
+   round 10 (m=4): min D/||K||^2 = 6.7053e-18
+   round 11 (m=5): min D/||K||^2 = 5.9487e-08
+   round 12 (m=3): min D/||K||^2 = -9.1035e-17
+   round 13 (m=4): min D/||K||^2 = 8.0325e-18
+   round 14 (m=5): min D/||K||^2 = 2.1500e-07
+   round 15 (m=3): min D/||K||^2 = 1.8298e-50
+   round 16 (m=4): min D/||K||^2 = 1.9328e-18
+   round 17 (m=5): min D/||K||^2 = 1.8354e-08
+   adversarial minimum: -9.1035e-17
+
+== Part 5: CE1 with u = y^2 (not in the separable class): defect = ||K||^2 - L
+   ||K||^2 = 0.125000, L = 0.125200, defect(y^2) = -2.000e-04 (= ||K||^2 - L = -2.000e-04)
+time 113s
+s4 exit=0

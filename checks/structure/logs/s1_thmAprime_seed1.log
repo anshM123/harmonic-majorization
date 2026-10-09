@@ -1,0 +1,138 @@
+== 3 levels incl. negative, simple: levels [-1.3, 0.4, 2.1], ||K||_F^2 = 3.197155, nodes 136448
+   mass of R: 1.5985774453517  vs ||K||^2/2 = 1.5985774453517   rel 9.72e-16
+   all nodes inside Rect: True
+   A' exp(1.0z)       : Tr f(X)-Tr f(X_E) = -0.9369809587527-2.178705109427j   -int f'' dR = -0.9369809587527-2.178705109427j   rel 2.35e-15
+   A' exp((2+1j)z)    : Tr f(X)-Tr f(X_E) = -3.193992399454+2.673497120925j   -int f'' dR = -3.193992399454+2.673497120925j   rel 1.73e-14
+   A' exp((-0-1.5j)z) : Tr f(X)-Tr f(X_E) = 2.640096335636-1.762786669046j   -int f'' dR = 2.640096335636-1.762786669046j   rel 3.89e-15
+   A' exp((0.7-0.3j)z): Tr f(X)-Tr f(X_E) = -1.605018400763+0.3971878006429j   -int f'' dR = -1.605018400763+0.3971878006429j   rel 2.04e-15
+   A' 1/(z0-z)        : Tr f(X)-Tr f(X_E) = -0.02514528387296-0.1218041847911j   -int f'' dR = -0.02514528387296-0.1218041847911j   rel 3.51e-15
+   A' log(z0-z)       : Tr f(X)-Tr f(X_E) = 0.1465067179158+0.1388486741167j   -int f'' dR = 0.1465067179158+0.1388486741167j   rel 3.70e-15
+   A' 1/(z1-z)^2      : Tr f(X)-Tr f(X_E) = -0.03917009015661-0.01945519174207j   -int f'' dR = -0.03917009015661-0.01945519174207j   rel 3.05e-14
+   A' z^2             : Tr f(X)-Tr f(X_E) = -3.197154890703-1.7763568394e-15j   -int f'' dR = -3.197154890703-0j   rel 1.37e-15
+   A' z^3             : Tr f(X)-Tr f(X_E) = -1.36410288707-8.675834947161j   -int f'' dR = -1.36410288707-8.675834947161j   rel 2.08e-15
+   A' z^5             : Tr f(X)-Tr f(X_E) = 28.75526577852-47.49081997491j   -int f'' dR = 28.75526577852-47.49081997491j   rel 1.29e-15
+   A' z^8             : Tr f(X)-Tr f(X_E) = 266.4005271761+1694.317188202j   -int f'' dR = 266.4005271761+1694.317188202j   rel 2.22e-15
+   Cor/Thm1(<=): u=cos*cosh, defect 1.086462557419  int u_yy dR 1.086462557419  rel 1.23e-15  (>=0: True)
+   u=(y-y0)^2-(x-x0)^2: defect 3.1971548907034 vs ||K||^2 3.1971548907034
+   x-marginal (5 betas per gap incl. 1e-6 from the lines): worst rel so far 5.98e-11
+   projection xi=+0.0, w=+0.0606: int rho along line 0.573267886223  N_xi(w) 0.573267886209  rel 2.5e-11
+   projection xi=+0.0, w=+0.7772: int rho along line 0.802962268448  N_xi(w) 0.802962268528  rel 9.9e-11
+   projection xi=+0.0, w=+1.4938: int rho along line 0.686712660495  N_xi(w) 0.686712660480  rel 2.2e-11
+   projection xi=+0.6, w=-0.0864: int rho along line 0.627299556179  N_xi(w) 0.627299556385  rel 3.3e-10
+   projection xi=+0.6, w=+0.6977: int rho along line 0.593039257200  N_xi(w) 0.593039257196  rel 7.9e-12
+   projection xi=+0.6, w=+1.4818: int rho along line 0.593039257197  N_xi(w) 0.593039257196  rel 2.6e-12
+   projection xi=-1.7, w=-0.1724: int rho along line 0.400876972084  N_xi(w) 0.400876972071  rel 3.3e-11
+   projection xi=-1.7, w=+1.5635: int rho along line 0.145535045314  N_xi(w) 0.145535061962  rel 1.1e-07
+   projection xi=-1.7, w=+3.2994: int rho along line 0.145535061975  N_xi(w) 0.145535061962  rel 8.9e-11
+   [elapsed 9s]
+== 4 levels with a repeat: levels [-0.5, -0.5, 0.8, 1.7], ||K||_F^2 = 65.402407, nodes 193216
+   mass of R: 32.7012034260441  vs ||K||^2/2 = 32.7012034260441   rel 1.30e-15
+   all nodes inside Rect: True
+   A' exp(1.0z)       : Tr f(X)-Tr f(X_E) = -5.675240289607-0.9915224385018j   -int f'' dR = -5.675240289607-0.9915224385018j   rel 2.19e-15
+   A' exp((2+1j)z)    : Tr f(X)-Tr f(X_E) = 132.633295078-733.8171457706j   -int f'' dR = 132.6332950781-733.8171457707j   rel 1.46e-13
+   A' exp((-0-1.5j)z) : Tr f(X)-Tr f(X_E) = 5739.734828803-3119.045042607j   -int f'' dR = 5739.734828803-3119.045042608j   rel 4.74e-15
+   A' exp((0.7-0.3j)z): Tr f(X)-Tr f(X_E) = -8.533515363825-4.161123313839j   -int f'' dR = -8.533515363825-4.161123313839j   rel 3.85e-15
+   A' 1/(z0-z)        : Tr f(X)-Tr f(X_E) = -1.668116152611+0.1886544322047j   -int f'' dR = -1.668116152611+0.1886544322047j   rel 1.13e-15
+   A' log(z0-z)       : Tr f(X)-Tr f(X_E) = 2.702181208291-0.1434724027581j   -int f'' dR = 2.702181208291-0.1434724027581j   rel 3.31e-16
+   A' 1/(z1-z)^2      : Tr f(X)-Tr f(X_E) = -0.7891935531033-0.479713886153j   -int f'' dR = -0.7891935531033-0.479713886153j   rel 5.17e-15
+   A' z^2             : Tr f(X)-Tr f(X_E) = -65.40240685209-4.085620730621e-14j   -int f'' dR = -65.40240685209-0j   rel 2.26e-15
+   A' z^3             : Tr f(X)-Tr f(X_E) = -81.97082759591-15.69614127174j   -int f'' dR = -81.97082759591-15.69614127174j   rel 9.79e-15
+   A' z^5             : Tr f(X)-Tr f(X_E) = 3225.047259145-2393.221978289j   -int f'' dR = 3225.047259145-2393.221978289j   rel 1.97e-14
+   A' z^8             : Tr f(X)-Tr f(X_E) = 4631757.614257-645010.875374j   -int f'' dR = 4631757.614257-645010.875374j   rel 9.98e-15
+   Cor/Thm1(<=): u=cos*cosh, defect 4519.098109877  int u_yy dR 4519.098109877  rel 1.43e-14  (>=0: True)
+   u=(y-y0)^2-(x-x0)^2: defect 65.402406852088 vs ||K||^2 65.402406852088
+   x-marginal (5 betas per gap incl. 1e-6 from the lines): worst rel so far 5.98e-11
+   projection xi=+0.0, w=-4.3124: int rho along line 1.043475824801  N_xi(w) 1.043475825423  rel 6.0e-10
+   projection xi=+0.0, w=-1.1079: int rho along line 4.031183782361  N_xi(w) 4.031183782374  rel 3.1e-12
+   projection xi=+0.0, w=+2.0966: int rho along line 3.845423573262  N_xi(w) 3.845423573254  rel 2.0e-12
+   projection xi=+0.6, w=-4.3054: int rho along line 1.291598764333  N_xi(w) 1.291598764419  rel 6.7e-11
+   projection xi=+0.6, w=-1.1570: int rho along line 4.374599745712  N_xi(w) 4.374599745711  rel 3.7e-13
+   projection xi=+0.6, w=+1.9915: int rho along line 3.778109057877  N_xi(w) 3.778109057887  rel 2.6e-12
+   projection xi=-1.7, w=-4.5157: int rho along line 0.661317751757  N_xi(w) 0.661317751757  rel 2.2e-15
+   projection xi=-1.7, w=-0.9806: int rho along line 3.482722536896  N_xi(w) 3.482722536900  rel 9.6e-13
+   projection xi=-1.7, w=+2.5546: int rho along line 4.530185505436  N_xi(w) 4.530185505433  rel 5.1e-13
+   [elapsed 29s]
+== 5 levels, two repeats: levels [0.0, 0.0, 1.0, 1.0, 3.0], ||K||_F^2 = 18.485458, nodes 261120
+   mass of R: 9.2427289389169  vs ||K||^2/2 = 9.2427289389169   rel 2.88e-15
+   all nodes inside Rect: True
+   A' exp(1.0z)       : Tr f(X)-Tr f(X_E) = 4.791053177708+20.45008249955j   -int f'' dR = 4.791053177708+20.45008249955j   rel 2.99e-15
+   A' exp((2+1j)z)    : Tr f(X)-Tr f(X_E) = -1990.240544033+3601.90604085j   -int f'' dR = -1990.240544033+3601.90604085j   rel 1.26e-14
+   A' exp((-0-1.5j)z) : Tr f(X)-Tr f(X_E) = 15.26194310318-42.51027861486j   -int f'' dR = 15.26194310318-42.51027861486j   rel 3.42e-15
+   A' exp((0.7-0.3j)z): Tr f(X)-Tr f(X_E) = 2.213223180859+3.907719504461j   -int f'' dR = 2.213223180859+3.907719504461j   rel 2.83e-15
+   A' 1/(z0-z)        : Tr f(X)-Tr f(X_E) = 0.06605498374362+0.3095419415119j   -int f'' dR = 0.06605498374362+0.3095419415119j   rel 7.49e-16
+   A' log(z0-z)       : Tr f(X)-Tr f(X_E) = 0.2929020213477-0.5944991238379j   -int f'' dR = 0.2929020213477-0.5944991238379j   rel 1.61e-15
+   A' 1/(z1-z)^2      : Tr f(X)-Tr f(X_E) = -0.02094164979669-0.4520075662748j   -int f'' dR = -0.02094164979669-0.4520075662748j   rel 6.97e-15
+   A' z^2             : Tr f(X)-Tr f(X_E) = -18.48545787783-2.84217094304e-14j   -int f'' dR = -18.48545787783-0j   rel 3.44e-15
+   A' z^3             : Tr f(X)-Tr f(X_E) = -62.23575969206+73.75429907097j   -int f'' dR = -62.23575969206+73.75429907097j   rel 2.95e-15
+   A' z^5             : Tr f(X)-Tr f(X_E) = 1729.642284025-139.0030780945j   -int f'' dR = 1729.642284025-139.0030780945j   rel 7.68e-15
+   A' z^8             : Tr f(X)-Tr f(X_E) = 38324.01317861+28923.79060375j   -int f'' dR = 38324.01317861+28923.79060375j   rel 2.93e-14
+   Cor/Thm1(<=): u=cos*cosh, defect 37.04600171212  int u_yy dR 37.04600171212  rel 5.37e-15  (>=0: True)
+   u=(y-y0)^2-(x-x0)^2: defect 18.485457877834 vs ||K||^2 18.485457877834
+   x-marginal (5 betas per gap incl. 1e-6 from the lines): worst rel so far 1.37e-10
+   projection xi=+0.0, w=-3.1436: int rho along line 1.534517824674  N_xi(w) 1.534517824673  rel 9.0e-13
+   projection xi=+0.0, w=-1.2254: int rho along line 2.311770577235  N_xi(w) 2.311770577252  rel 7.3e-12
+   projection xi=+0.0, w=+0.6927: int rho along line 0.750565718102  N_xi(w) 0.750565718055  rel 6.2e-11
+   projection xi=+0.6, w=-3.8938: int rho along line 1.577634210668  N_xi(w) 1.577634210669  rel 7.8e-13
+   projection xi=+0.6, w=-1.9046: int rho along line 2.113556237271  N_xi(w) 2.113556237055  rel 1.0e-10
+   projection xi=+0.6, w=+0.0846: int rho along line 0.708319574399  N_xi(w) 0.708319574391  rel 1.1e-11
+   projection xi=-1.7, w=-2.2585: int rho along line 0.919563815080  N_xi(w) 0.919563815082  rel 2.3e-12
+   projection xi=-1.7, w=-0.1233: int rho along line 1.304183152008  N_xi(w) 1.304183152791  rel 6.0e-10
+   projection xi=-1.7, w=+2.0118: int rho along line 1.522598433725  N_xi(w) 1.522598433717  rel 5.2e-12
+   [elapsed 51s]
+== 6 levels, interior repeats, large range: levels [-2.0, -0.3, -0.3, 0.9, 0.9, 4.0], ||K||_F^2 = 14.208837, nodes 374400
+   mass of R: 7.1044186247711  vs ||K||^2/2 = 7.1044186247711   rel 2.00e-15
+   all nodes inside Rect: True
+   A' exp(1.0z)       : Tr f(X)-Tr f(X_E) = -34.33013321251-7.571116472824j   -int f'' dR = -34.33013321251-7.571116472824j   rel 1.52e-15
+   A' exp((2+1j)z)    : Tr f(X)-Tr f(X_E) = -601.633627121+1296.830456947j   -int f'' dR = -601.6336271211+1296.830456947j   rel 3.38e-14
+   A' exp((-0-1.5j)z) : Tr f(X)-Tr f(X_E) = 2.58319404233+2.639687866282j   -int f'' dR = 2.58319404233+2.639687866282j   rel 1.89e-14
+   A' exp((0.7-0.3j)z): Tr f(X)-Tr f(X_E) = -1.892785032394+11.24693785079j   -int f'' dR = -1.892785032394+11.24693785079j   rel 4.74e-16
+   A' 1/(z0-z)        : Tr f(X)-Tr f(X_E) = -0.7107617211883-0.2230984739008j   -int f'' dR = -0.7107617211883-0.2230984739008j   rel 6.84e-16
+   A' log(z0-z)       : Tr f(X)-Tr f(X_E) = 0.7769509698693+0.01100005372708j   -int f'' dR = 0.7769509698693+0.01100005372708j   rel 1.86e-15
+   A' 1/(z1-z)^2      : Tr f(X)-Tr f(X_E) = -0.07367607725779-0.1205893804224j   -int f'' dR = -0.07367607725779-0.1205893804224j   rel 2.18e-14
+   A' z^2             : Tr f(X)-Tr f(X_E) = -14.20883724954+4.440892098501e-15j   -int f'' dR = -14.20883724954-0j   rel 1.53e-15
+   A' z^3             : Tr f(X)-Tr f(X_E) = -35.030695216+15.35370318579j   -int f'' dR = -35.030695216+15.35370318579j   rel 5.87e-16
+   A' z^5             : Tr f(X)-Tr f(X_E) = -749.7427734556-286.3919603303j   -int f'' dR = -749.7427734556-286.3919603303j   rel 1.73e-15
+   A' z^8             : Tr f(X)-Tr f(X_E) = -42347.73296369-52629.78800441j   -int f'' dR = -42347.73296369-52629.78800441j   rel 4.36e-15
+   Cor/Thm1(<=): u=cos*cosh, defect 1.570877813201  int u_yy dR 1.570877813201  rel 1.98e-15  (>=0: True)
+   u=(y-y0)^2-(x-x0)^2: defect 14.208837249542 vs ||K||^2 14.208837249542
+   x-marginal (5 betas per gap incl. 1e-6 from the lines): worst rel so far 1.37e-10
+   projection xi=+0.0, w=-1.7754: int rho along line 1.352179378173  N_xi(w) 1.352179378196  rel 1.7e-11
+   projection xi=+0.0, w=-0.6245: int rho along line 2.522943826935  N_xi(w) 2.522943826848  rel 3.4e-11
+   projection xi=+0.0, w=+0.5264: int rho along line 2.203847248788  N_xi(w) 2.203847249018  rel 1.0e-10
+   projection xi=+0.6, w=-2.3463: int rho along line 1.060592865632  N_xi(w) 1.060592865640  rel 7.5e-12
+   projection xi=+0.6, w=-1.0206: int rho along line 2.355015418630  N_xi(w) 2.355015418859  rel 9.7e-11
+   projection xi=+0.6, w=+0.3052: int rho along line 1.344899344190  N_xi(w) 1.344899344212  rel 1.6e-11
+   projection xi=-1.7, w=-1.6983: int rho along line 0.630110633405  N_xi(w) 0.630110633375  rel 4.7e-11
+   projection xi=-1.7, w=+1.2575: int rho along line 0.913707289685  N_xi(w) 0.913707289639  rel 5.0e-11
+   projection xi=-1.7, w=+4.2132: int rho along line 0.382500439357  N_xi(w) 0.382500439359  rel 4.9e-12
+   [elapsed 98s]
+== projection-like (2 levels, mult 2+2): levels [0.0, 0.0, 1.0, 1.0], ||K||_F^2 = 10.216795, nodes 88736
+   mass of R: 5.1083975372933  vs ||K||^2/2 = 5.1083975372933   rel 1.39e-15
+   all nodes inside Rect: True
+   A' exp(1.0z)       : Tr f(X)-Tr f(X_E) = -2.329058902344-0.7089024523933j   -int f'' dR = -2.329058902344-0.7089024523933j   rel 9.40e-16
+   A' exp((2+1j)z)    : Tr f(X)-Tr f(X_E) = 81.89508965948+38.2177776006j   -int f'' dR = 81.89508965948+38.2177776006j   rel 6.62e-15
+   A' exp((-0-1.5j)z) : Tr f(X)-Tr f(X_E) = 66.72145981279-38.53664012514j   -int f'' dR = 66.72145981279-38.53664012514j   rel 1.99e-15
+   A' exp((0.7-0.3j)z): Tr f(X)-Tr f(X_E) = -2.786235121458+1.120280919369j   -int f'' dR = -2.786235121458+1.120280919369j   rel 1.34e-15
+   A' 1/(z0-z)        : Tr f(X)-Tr f(X_E) = -0.8914716475799-0.266186733376j   -int f'' dR = -0.8914716475799-0.266186733376j   rel 5.34e-16
+   A' log(z0-z)       : Tr f(X)-Tr f(X_E) = 1.000618411553+0.129607061275j   -int f'' dR = 1.000618411553+0.129607061275j   rel 1.05e-15
+   A' 1/(z1-z)^2      : Tr f(X)-Tr f(X_E) = -0.7590320035223-0.3472771532268j   -int f'' dR = -0.7590320035223-0.3472771532268j   rel 1.49e-15
+   A' z^2             : Tr f(X)-Tr f(X_E) = -10.21679507459+5.329070518201e-15j   -int f'' dR = -10.21679507459-0j   rel 2.32e-15
+   A' z^3             : Tr f(X)-Tr f(X_E) = -15.32519261188-5.433788082634j   -int f'' dR = -15.32519261188-5.433788082634j   rel 3.63e-15
+   A' z^5             : Tr f(X)-Tr f(X_E) = 268.4428053578+61.59985231166j   -int f'' dR = 268.4428053578+61.59985231166j   rel 6.00e-15
+   A' z^8             : Tr f(X)-Tr f(X_E) = 4856.646980099+969.815731932j   -int f'' dR = 4856.646980099+969.815731932j   rel 4.39e-15
+   Cor/Thm1(<=): u=cos*cosh, defect 7580.792981704  int u_yy dR 7580.792981704  rel 6.00e-15  (>=0: True)
+   u=(y-y0)^2-(x-x0)^2: defect 10.216795074587 vs ||K||^2 10.216795074587
+   x-marginal (5 betas per gap incl. 1e-6 from the lines): worst rel so far 1.37e-10
+   projection xi=+0.0, w=-1.7846: int rho along line 0.893393395877  N_xi(w) 0.893393395843  rel 3.9e-11
+   projection xi=+0.0, w=-0.2701: int rho along line 0.813362981844  N_xi(w) 0.813362981835  rel 1.1e-11
+   projection xi=+0.0, w=+1.2444: int rho along line 1.220162667325  N_xi(w) 1.220162667327  rel 1.3e-12
+   projection xi=+0.6, w=-2.1361: int rho along line 0.691622748661  N_xi(w) 0.691622748643  rel 2.6e-11
+   projection xi=+0.6, w=-0.5631: int rho along line 0.954758447947  N_xi(w) 0.954758447969  rel 2.3e-11
+   projection xi=+0.6, w=+1.0099: int rho along line 1.055768537588  N_xi(w) 1.055768537568  rel 1.9e-11
+   projection xi=-1.7, w=-1.0904: int rho along line 0.679802139529  N_xi(w) 0.679802139520  rel 1.3e-11
+   projection xi=-1.7, w=+0.4240: int rho along line 0.767988153002  N_xi(w) 0.767988153021  rel 2.4e-11
+   projection xi=-1.7, w=+1.9384: int rho along line 1.767802347741  N_xi(w) 1.767802347741  rel 4.6e-13
+   [elapsed 109s]
+
+SUMMARY (worst relative errors): {'mass': '2.88e-15', "A'": '1.46e-13', 'harmonic': '1.43e-14', 'quadratic': '1.04e-15', 'x-marginal': '1.37e-10', 'oblique': '1.14e-07'}
+time 109s

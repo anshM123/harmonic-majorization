@@ -1,0 +1,63 @@
+name = "harmonic_majorization"
+defaultTargets = ["OQP27", "HarmonicMajorization"]
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
+rev = "v4.33.1"
+
+# The part of the OQP 27 formalisation (github.com/anshM123/IQOQI-OQP-27) that the theory imports.
+[[lean_lib]]
+name = "OQP27"
+globs = [
+  "OQP27.StripJensen",
+  "OQP27.StripPencil",
+  "OQP27.StripSlice",
+  "OQP27.StripBounds",
+  "OQP27.StripBMV",
+  "OQP27.StripKernel",
+  "OQP27.StripPoisson",
+  "OQP27.StripSpectral",
+  "OQP27.StripFromBMV",
+  "OQP27.StripRIContour",
+  "OQP27.StripRIPencil",
+  "OQP27.StripRISums",
+  "OQP27.StripRISmooth",
+  "OQP27.StripRIEnds",
+  "OQP27.StripRIBoundary",
+  "OQP27.StripRIAssembly",
+  "OQP27.StripRIMain",
+  "OQP27.StripTheorem2",
+  "OQP27.Statement",
+  "OQP27.CertDefs",
+  "OQP27.Skeleton",
+  "OQP27.StripSkeleton",
+  "OQP27.StripRIChain"
+]
+
+# Theorems A, B, C of harmonic majorization for general 0 <= B <= 1.
+[[lean_lib]]
+name = "HarmonicMajorization"
+globs = [
+  "HarmonicMajorization.SpecDecomp",
+  "HarmonicMajorization.PencilGen",
+  "HarmonicMajorization.TheoremAGen",
+  "HarmonicMajorization.Duhamel",
+  "HarmonicMajorization.MarginalGen",
+  "HarmonicMajorization.PoissonGen",
+  "HarmonicMajorization.TheoremBGen",
+  "HarmonicMajorization.MarginalProj",
+  "HarmonicMajorization.TheoremCProj",
+  "HarmonicMajorization.TheoremCGen",
+  "HarmonicMajorization.RIG1",
+  "HarmonicMajorization.RIG2",
+  "HarmonicMajorization.RIG3a",
+  "HarmonicMajorization.RIG3b",
+  "HarmonicMajorization.RIG4a",
+  "HarmonicMajorization.RIG4b",
+  "HarmonicMajorization.MainGen",
+  "HarmonicMajorization.RightEdge",
+  "HarmonicMajorization.DensityGen",
+  "HarmonicMajorization.SliceGen",
+  "HarmonicMajorization.MassGen"
+]
