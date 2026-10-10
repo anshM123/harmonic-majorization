@@ -20,7 +20,7 @@ Consequences:
   - proved when min(n, m) ≤ 2;
   - proved at (3,3), (3,4), (4,3), (4,4), (4,6) and (6,4), in any dimension. The (3,3) case rests on
     Tr(A³B³) + 2 Re Tr(A²BAB²) ≥ 3 Tr((AB)³), which is machine-checked in Lean;
-  - proved at (n, 3) and (3, n) for n = 1, …, 33 and n = 36, 39, …, 63, in any dimension (an exact computation for each n);
+  - proved at (n, 3) and (3, n) for n = 1, …, 34 and n = 36, 39, …, 63, in any dimension (an exact computation for each n);
   - proved at (n, 4) and (4, n) for n = 3, …, 12 and n = 14, 16, 18, 20, 22, in any dimension (an exact polynomial certificate for each n);
   - proved when A or B has two distinct eigenvalues, in any dimension;
   - proved for all 2 × 2 pairs (already in Furuichi–Kuriyama–Yanagi, Linear Algebra Appl. 430 (2009));
